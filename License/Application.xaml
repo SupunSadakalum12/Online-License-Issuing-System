@@ -1,0 +1,76 @@
+﻿<Window x:Class="License.Application"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:License"
+        mc:Ignorable="d"
+        Height="700" Width="900" WindowStyle="None" Background="Transparent" AllowsTransparency="True">
+    <Border Background="WhiteSmoke"
+            CornerRadius="20">
+        <StackPanel>
+            <Grid Height="705" Width="900">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Image Margin="21,9,571,1" Source="/Add a heading.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+                <Label Content="Application" Margin="0,10,0,1" Grid.Column="1" Foreground="DeepSkyBlue" FontSize="44" FontWeight="Bold"  FontFamily="Arial" HorizontalAlignment="Center"/>
+                <Label x:Name="lable1" Content="ID/Passport No:" HorizontalAlignment="Left" Margin="18,10,0,50" Grid.Row="1" Width="230" FontFamily="Arial" FontWeight="Bold" FontSize="22" HorizontalContentAlignment="Center"/>
+                <Label Content="Full Name:" FontSize="22" HorizontalContentAlignment="Center" Margin="18,57,2,3" Grid.Row="1" Height="40" Width="230" FontFamily="Arial" FontWeight="Bold"/>
+                <Label Content="Sex:" Height="40" Width="230" FontSize="22" HorizontalContentAlignment="Center" FontFamily="Arial" FontWeight="Bold" Margin="14,104,6,-44" Grid.Row="1"/>
+
+                <TextBox PreviewTextInput="pno_PreviewTextInput" MaxLength="12" x:Name="pno" Grid.Column="1" HorizontalAlignment="Center" Height="40" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="630" FontSize="20" FontFamily="Arial" FontWeight="Normal" Margin="0,12,0,0"/>
+                <TextBox x:Name="fn" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,59,9,1" Grid.Row="1" FontSize="20" FontFamily="Arial"/>
+                <Label Content="Date Of Birth:" Height="40" Width="230" HorizontalContentAlignment="Center" FontSize="22" FontFamily="Arial" FontWeight="Bold" Margin="18,151,2,-91" Grid.Row="1" />
+                <DatePicker x:Name="date" Grid.Column="1" Margin="10,152,9,-86" Grid.Row="1" FontFamily="Arial" FontWeight="Bold" FontSize="20"/>
+                <Label Content="Age:" FontSize="22" FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" Height="40" Width="230" Margin="14,197,6,-137" Grid.Row="1"/>
+                <TextBox PreviewTextInput="age_PreviewTextInput" MaxLength="2" x:Name="age" Height="40" Width="630" Grid.Column="1" Margin="9,193,10,-133" Grid.Row="1" TextWrapping="Wrap" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Height:" FontSize="22" FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" Height="40" Width="230" Margin="18,244,2,-184" Grid.Row="1"/>
+                <TextBox PreviewTextInput="hei_PreviewTextInput" MaxLength="3" x:Name="hei" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,240,9,-180" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Blood Group:" FontSize="22" HorizontalContentAlignment="Center" FontFamily="Arial" FontWeight="Bold" Height="40" Width="230" Margin="18,291,2,-231" Grid.Row="1"/>
+                <TextBox MaxLength="2" x:Name="bl" Width="630" Height="40" TextWrapping="Wrap" Grid.Column="1" Margin="10,285,9,-225" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Address:" FontSize="22" FontWeight="Bold" FontFamily="Arial" HorizontalContentAlignment="Center" Width="230" Height="40" Margin="14,340,6,-280" Grid.Row="1"/>
+                <TextBox x:Name="add" Width="630" Height="40" TextWrapping="Wrap" Grid.Column="1" Margin="10,332,9,-272" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Phone Number:" FontSize="22" FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" Height="40" Width="230" Margin="18,387,2,-327" Grid.Row="1"/>
+                <TextBox PreviewTextInput="pn_PreviewTextInput" x:Name="pn" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,377,9,-317" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Authorized By:" FontSize="22" FontWeight="Bold" FontFamily="Arial" HorizontalContentAlignment="Center" Height="40" Width="230" Margin="14,434,6,-374" Grid.Row="1"/>
+                <TextBox x:Name="aby" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,424,9,-364" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Vehicle Class:" FontSize="22" FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" Height="40" Width="230" Margin="10,479,10,-419" Grid.Row="1"/>
+                <TextBox x:Name="vc" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,471,9,-411" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Label Content="Vehicle Registration No:" FontSize="19" FontFamily="Arial" FontWeight="Bold" Height="40" Width="230" Margin="14,526,0,-466" Grid.Row="1" HorizontalAlignment="Left"/>
+                <TextBox PreviewTextInput="vrn_PreviewTextInput" MaxLength="12" x:Name="vrn" Height="40" Width="630" TextWrapping="Wrap" Grid.Column="1" Margin="10,516,9,-456" Grid.Row="1" FontFamily="Arial" FontSize="20"/>
+                <Button Click="Button_Click_2" Content="Reset"  Foreground="White" Background="Navy" FontSize="30" FontFamily="Arial" FontWeight="Bold" Margin="20,565,420,-525" Grid.Row="1" Grid.Column="1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Click="Button_Click_1" Content="Back" Foreground="White" Background="Navy" FontWeight="Bold" FontFamily="Arial" FontSize="30" Grid.Column="1" Margin="234,565,215,-525" Grid.Row="1" Height="60" Width="200">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Click="Button_Click" Content="Apply" Foreground="White" Background="Navy" FontSize="30" FontWeight="Bold" FontFamily="Arial" Grid.Column="1" Margin="439,565,10,-525" Grid.Row="1" Height="60" Width="200">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <ComboBox x:Name="comboBox1" Grid.Column="1" Margin="10,106,389,-44" Grid.Row="1" FontFamily="Arial" FontWeight="Bold" FontSize="20">
+                    <ComboBoxItem Foreground="Black" FontFamily="Arial" FontWeight="Bold" FontSize="14">Female</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black" FontFamily="Arial" FontWeight="Bold" FontSize="14">Male</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+        </StackPanel>
+
+    </Border>
+</Window>

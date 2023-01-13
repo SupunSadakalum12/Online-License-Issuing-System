@@ -1,0 +1,60 @@
+﻿<Window x:Class="License.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:License"
+        mc:Ignorable="d"
+        
+        Height="350" Width="450" WindowStyle="None" Background="White" AllowsTransparency="True">
+    <Border Background="White"
+            CornerRadius="20">
+        <StackPanel>
+            <Grid Height="354">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Image HorizontalAlignment="Left" Height="61" Margin="1,0,0,0" VerticalAlignment="Top" Width="203" Source="/Add a heading.png" Stretch="Fill"/>
+                <Label Content="SIGN UP" Foreground="DeepSkyBlue" FontSize="24" Margin="339,-3,-250,-3" FontFamily="Arial" FontWeight="Bold"/>
+                <Label Content="Name" FontSize="14" Foreground="Black" Margin="10,61,131,-43" FontFamily="Arial"/>
+                <TextBox x:Name="name" Margin="127,67,-240,-37" FontSize="14" FontFamily="Arial"></TextBox>
+                <Label Content="Address" FontSize="14" Foreground="Black" Margin="10,96,122,-78" FontFamily="Arial"/>
+                <TextBox x:Name="add" Margin="127,101,-240,-76" FontSize="14" FontFamily="Arial" Height="20"></TextBox>
+                <Label Content="Mobile Number" FontSize="14" Foreground="Black" Margin="10,131,73,-113" FontFamily="Arial"/>
+                <TextBox Height="20" PreviewTextInput="mn_PreviewTextInput" x:Name="mn" Margin="127,137,-240,-107" FontFamily="Arial" FontSize="14"></TextBox>
+                <Label Content="Mail Address" FontSize="14" Foreground="Black" Margin="10,166,100,-148" FontFamily="Arial"/>
+                <TextBox Height="20" x:Name="ma" Margin="127,172,-240,-142" FontFamily="Arial" FontSize="14"></TextBox>
+                <Label Content="Username" FontSize="14" Foreground="Black" Margin="10,201,100,-183" FontFamily="Arial"/>
+                <TextBox Height="20" MaxLength="10" x:Name="user" Margin="127,207,-240,-177" FontFamily="Arial" FontSize="14"/>
+                <Label Content="Password" FontSize="14" Foreground="Black" Margin="10,236,100,-212" FontFamily="Arial"/>
+                <PasswordBox Height="20" MaxLength="8" x:Name="pass" Margin="127,239,-240,-209" FontFamily="Arial" FontSize="14"/>
+                <Button Click="Button_Click" Content="Login" Foreground="White" Background="Navy" FontSize="20" Margin="319,287,-240,-276" FontFamily="Arial" FontWeight="Bold">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Click="Button_Click_1" Content="Back" Foreground="White" Background="Navy" FontSize="20" FontFamily="Arial" FontWeight="Bold" Margin="193,287,-114,-276">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Click="Button_Click_2" Content="Reset" Background="Navy" Foreground="White" Margin="68,287,0,-276" HorizontalAlignment="Left" Width="120" FontFamily="Arial" FontWeight="Bold" FontSize="20">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </StackPanel>
+
+    </Border>
+</Window>

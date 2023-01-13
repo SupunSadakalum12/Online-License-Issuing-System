@@ -1,0 +1,96 @@
+D:\drive\License\License\obj\Debug\net6.0-windows\License.csproj.AssemblyReference.cache
+D:\drive\License\License\obj\Debug\net6.0-windows\About_Us.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Application.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Contact_Us.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Interface.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\License_Type.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Login.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Payment.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Register.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\Verification.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\App.g.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\License_MarkupCompile.cache
+D:\drive\License\License\obj\Debug\net6.0-windows\License_MarkupCompile.lref
+D:\drive\License\License\bin\Debug\net6.0-windows\License.exe
+D:\drive\License\License\bin\Debug\net6.0-windows\License.deps.json
+D:\drive\License\License\bin\Debug\net6.0-windows\License.runtimeconfig.json
+D:\drive\License\License\bin\Debug\net6.0-windows\License.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\License.pdb
+D:\drive\License\License\obj\Debug\net6.0-windows\About_Us.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Application.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Contact_Us.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Interface.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\License_Type.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Login.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\MainWindow.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Payment.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Register.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\Verification.baml
+D:\drive\License\License\obj\Debug\net6.0-windows\License.g.resources
+D:\drive\License\License\obj\Debug\net6.0-windows\License.GeneratedMSBuildEditorConfig.editorconfig
+D:\drive\License\License\obj\Debug\net6.0-windows\License.AssemblyInfoInputs.cache
+D:\drive\License\License\obj\Debug\net6.0-windows\License.AssemblyInfo.cs
+D:\drive\License\License\obj\Debug\net6.0-windows\License.csproj.CoreCompileInputs.cache
+D:\drive\License\License\obj\Debug\net6.0-windows\License.dll
+D:\drive\License\License\obj\Debug\net6.0-windows\refint\License.dll
+D:\drive\License\License\obj\Debug\net6.0-windows\License.pdb
+D:\drive\License\License\obj\Debug\net6.0-windows\License.genruntimeconfig.cache
+D:\drive\License\License\obj\Debug\net6.0-windows\ref\License.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\MySql.Data.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+D:\drive\License\License\bin\Debug\net6.0-windows\ZstdNet.dll
+D:\drive\License\License\obj\Debug\net6.0-windows\License.csproj.CopyComplete
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.dll
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\refint\License.dll
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.pdb
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\License.exe
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\License.deps.json
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\License.runtimeconfig.json
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\License.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\License.pdb
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\User\Desktop\f project dip\License\License\License\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\About_Us.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Application.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Contact_Us.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Interface.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License_Type.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Login.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Payment.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Register.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Verification.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License_MarkupCompile.cache
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License_MarkupCompile.lref
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\About_Us.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Application.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Contact_Us.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Interface.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License_Type.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Login.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Payment.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Register.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\Verification.baml
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.g.resources
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.AssemblyInfo.cs
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.csproj.CopyComplete
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\License.genruntimeconfig.cache
+C:\Users\User\Desktop\f project dip\License\License\License\obj\Debug\net6.0-windows\ref\License.dll

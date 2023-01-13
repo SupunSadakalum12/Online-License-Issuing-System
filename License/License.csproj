@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="234-2343547_password-lock-icon-lock-icon-png.png" />
+    <None Remove="303-3038219_pay-transparent-png-mobile-payment-icon-png-modified.png" />
+    <None Remove="303-3038219_pay-transparent-png-mobile-payment-icon-png.png" />
+    <None Remove="5ec375cc6847d6001d3e851c.jpg" />
+    <None Remove="Add a heading.png" />
+    <None Remove="car-1149997_1920_1589517140858_1589517141315.jpg" />
+    <None Remove="download.png" />
+    <None Remove="flat-woman-driver-license-plastic-card-template-id-card-vector-illustration-92987889.jpg" />
+    <None Remove="man-vs-car-vs-taxi.jpg" />
+    <None Remove="realistic-international-plastic-driver-licence-600w-263677043.png" />
+    <None Remove="technology-documents-folders-cartoon-vector-23616475-modified.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="234-2343547_password-lock-icon-lock-icon-png.png" />
+    <Resource Include="303-3038219_pay-transparent-png-mobile-payment-icon-png-modified.png" />
+    <Resource Include="303-3038219_pay-transparent-png-mobile-payment-icon-png.png" />
+    <Resource Include="5ec375cc6847d6001d3e851c.jpg" />
+    <Resource Include="Add a heading.png" />
+    <Resource Include="car-1149997_1920_1589517140858_1589517141315.jpg" />
+    <Resource Include="download.png" />
+    <Resource Include="flat-woman-driver-license-plastic-card-template-id-card-vector-illustration-92987889.jpg" />
+    <Resource Include="man-vs-car-vs-taxi.jpg" />
+    <Resource Include="realistic-international-plastic-driver-licence-600w-263677043.png" />
+    <Resource Include="technology-documents-folders-cartoon-vector-23616475-modified.png" />
+  </ItemGroup>
+
+</Project>
